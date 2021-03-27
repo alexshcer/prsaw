@@ -26,6 +26,22 @@ print(response)
 # close the object once done (recommended)
 rs.close()
 ```
+## Example to take imput from the user
+```python
+# import the module
+from prsaw import RandomStuff
+
+# initiate the object
+rs = RandomStuff()
+
+# get a response from an endpoint
+user_input = input("> ")# You can change the sign as your wish
+response =  rs.get_ai_response("user_input")
+print(response)
+
+# close the object once done (recommended)
+rs.close()
+```
 
 ## Example async usage
 ```python
